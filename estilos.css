@@ -1,0 +1,194 @@
+cuerpo{
+    Margen: 0;
+    Antecedentes: #1A0321;
+
+}
+h1 {
+    text-align: centro;
+    tamaño de fuente: 100px;
+}
+
+. Con-2 {
+    Pantalla: Ninguna;
+}
+
+lona {
+    pantalla: bloque;
+}
+. Contenedor {
+    Pantalla: Flex;
+    justify-content: centro;
+    align-items: centro;
+    Altura: 100VH;
+    Margen: 0;
+}
+. Contra {
+    Pantalla: Flex;
+    place-content: centro;
+    align-items: centro;
+    Parte superior del margen: 15px;
+}
+
+. Texto {
+    Pantalla: Ninguna;
+    color: blanco;
+}
+. Texto h2 {
+    tamaño de fuente: 50px;
+}
+. Contenedor-Binicio {
+    Pantalla: Flex;
+    justify-content: centro;
+    align-items: centro;
+    Parte superior del margen: 10px;
+}
+
+. Con-Emergente{
+    align-items: centro;
+    text-align: centro;
+    Relleno: 20px;
+    Pantalla: Flex;
+}
+. cua{
+    Pantalla: Ninguna;
+    posición: fija;
+    Parte superior: 20px;
+    Izquierda: 50%;
+    transformar: translateX(-50%);
+    Ancho: 300px;
+    Relleno: 30px;
+    color de fondo: #f9f9f9;
+    borde: 2px verde amarillo sólido;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: centro;
+    Animación: Aparece 0.5s ease-out;
+}
+@keyframes aparecer {
+    0% {
+      Opacidad: 0;
+      transformar: translateX(-50%) translateY(-20px);
+    }
+    50% {
+      Opacidad: 0.5;
+      transformar: translateX(-50%) translateY(-10px);
+    }
+    100% {
+        Opacidad: 1;
+        transformar: translateX(-50%) translateY(0);
+      }
+}
+
+@media (ancho máximo: 468px) {
+    cuerpo {
+       Antecedentes: #1A0321;
+
+    }
+}
+
+. BTN-neón{
+
+    posición: relativa;
+    Pantalla: bloque en línea;
+    Relleno: 15px 30px;
+    Color: #FFF;
+    Espaciado entre letras: 4px;
+    decoración de texto: ninguna;
+    tamaño de fuente: 24px;
+    desbordamiento: oculto;
+    Transición: 0,2s;
+    justify-content: centro;
+  align-items: centro;
+
+}
+. btn-neón1{
+     Pantalla: Ninguna;
+    posición: fija;
+    Parte superior: 20px;
+    Izquierda: 50%;
+    transformar: translateX(-50%);
+    Ancho: 300px;
+    Relleno: 30px;
+    Relleno: 15px 30px;
+    Color: #00000;
+    color de fondo: #f9f9f9;
+    Espaciado entre letras: 4px;
+    decoración de texto: ninguna;
+    tamaño de fuente: 24px;
+    desbordamiento: oculto;
+    Transición: 0,2s;
+    justify-content: centro;
+  align-items: centro;
+
+}
+. btn-neon:hover{
+    Antecedentes: #FFFF00;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    retardo de transición: 1s;
+ }
+ . btn-neon1:hover{
+    Antecedentes: #FFFF00;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    retardo de transición: 1s;
+ }
+. Tramo BTN-Neón {
+    posición: absoluta;
+    pantalla: bloque;
+}
+. BTN-NEON1 Tramo{
+    posición: absoluta;
+    pantalla: bloque;
+}
+
+
+
+
+
+
+#span1{
+    Arriba: 0;
+    Izquierda: -100%;
+    Ancho: 100%;
+    Altura: 2px;
+    fondo: gradiente lineal (90grados, transparente, #FF0000);
+ }
+ . btn-neon:hover #span1{
+    Izquierda: 100%;
+    Transición: 1s;
+}
+ #span3{
+    Abajo: 0;
+    Derecha: -100%;
+    Ancho: 100%;
+    Altura: 2px;
+    fondo: gradiente lineal (270grados, transparente,#FF0000);
+}
+ . btn-neon:hover #span3{
+    Derecha: 100%;
+    Transición: 1s;
+    Retardo de transición: 0,5s;
+}
+#span2{
+    Arriba: -100%;
+    Derecha: 0;
+    Ancho: 2px;
+    Altura: 100%;
+    fondo: gradiente lineal (180grados, transparente, #FF0000);
+}
+. btn-neon:hover #span2{
+    Parte superior: 100%;
+    Transición: 1s;
+    Retardo de transición: 0,25s;
+}
+#span4{
+    Fondo: -100%;
+    Izquierda: 0;
+    Ancho: 2px;
+    Altura: 100%;
+    Fondo: gradiente lineal (360grados, transparente, #A945C7);
+}
+. btn-neon:hover #span4{
+    Abajo: 100%;
+    Transición: 1s;
+    Retardo de transición: 0,75s;
+}
